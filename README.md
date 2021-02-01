@@ -29,10 +29,10 @@ The user goals are to:
 7.	As an interested user (a fan or a promoter), I want to be able to access the band’s social media accounts and streaming platforms, so that I can find out more about them and listen to their music.
 
 ### Wireframes:
-- index.html
-- tour.html
-- discography.html
-- contact.html
+- [index.html](assets/wireframes/index.pdf)
+- [tour.html](assets/wireframes/tour.pdf)
+- [discography.html](assets/wireframes/discography.pdf)
+- [contact.html](assets/wireframes/contact.pdf)
 
 ## Features
  
