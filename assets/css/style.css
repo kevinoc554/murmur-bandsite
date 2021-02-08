@@ -9,6 +9,14 @@
     font-family: "Lato", sans-serif;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*------------------------------ Colors*/
 
 .ui-bg-color {
@@ -24,8 +32,13 @@
 }
 
 .logo {
-    color: #fafafa;
-    font-family: "Oswald", sans-serif;
+    margin: 0;
+    background: url(../images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .navbar ul li a {
@@ -42,10 +55,31 @@
     width: 100%;
 }
 
+.footer-content {
+    padding: 1.5rem;
+}
+
 .social-links {
     padding-top: .5rem;
-    padding-right: 2rem;
+    padding-right: .5rem;
     text-align: right;   
+}
+
+@media screen and (max-width: 767px) {
+    .footer-content {
+        margin: 0;
+        padding: 0;
+    }
+    .social-links {
+        margin: .5rem 0;
+        padding: 0;
+        text-align: center;
+    }
+    .copyright-disclaimer {
+        margin: 1rem 0 0 0;
+        padding: 0;
+        text-align: center;
+    }
 }
 
 .social-links li a {
@@ -60,3 +94,5 @@
     text-align: center;
     padding: .5rem 0;
 }
+
+/*------------------------------ Index Section*/
