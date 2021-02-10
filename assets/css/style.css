@@ -16,9 +16,7 @@
 .page-header {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    margin-bottom: 1rem;
-    border-bottom: 5px;
-    border-color: #070f16;
+    margin-bottom: 1.5rem;
 }
 
 .uppercase {
@@ -29,7 +27,11 @@
     text-align: center;
 }
 
-.main-section {
+.text-right{
+    text-align: right;
+}
+
+.main-container {
     margin-bottom: 7rem;
     overflow: auto;
 }
@@ -41,7 +43,7 @@
 /*------------------------------ Colors*/
 
 .ui-bg-color {
-    background-color: #070f16;
+    background-color: #212529;
 }
 
 /*------------------------------ Navigation*/
@@ -62,6 +64,10 @@
     background-size: cover;
     height: 3.5rem;
     width: 3.5rem;
+}
+
+.navbar ul {
+    background-color: #212529;
 }
 
 .navbar ul li a {
@@ -106,7 +112,7 @@
 /*-------------------------------- Hero Image */
 
 .hero-image-container {
-    height: 50vh;
+    height: 33vh;
     margin-top: 5rem;
     margin-bottom: .5rem;
     background: url(../images/hanny-naibaho-unsplash.jpg) no-repeat center center fixed;
@@ -123,7 +129,7 @@
 }
 
 .overlay {
-    height: 50vh;
+    height: 33vh;
     width: 100%;
     margin-top: 5rem;
     margin-bottom: .5rem;
@@ -140,12 +146,19 @@
 
 /*------------------------------ Index Section*/
 
-.news-image{
+.news-image-border{
     border-left: 1px solid #070f16;
 }
 
 /*------------------------------ Media Queries*/
 @media screen and (max-width: 767px) {
+    .nav-container {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .navbar ul {
+    border-top: 1px solid #fafafa;
+}
     .footer {
         height: 7rem;
     }
@@ -162,5 +175,8 @@
         margin-top: .25rem;
         padding: 0;
         text-align: center;
+    }
+    .hero-image-container {
+        justify-content: center;
     }
 }
