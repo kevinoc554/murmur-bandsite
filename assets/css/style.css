@@ -151,6 +151,10 @@
 
 /*------------------------------ Index Section*/
 
+.news-item {
+    margin-bottom: 2.5rem;
+}
+
 .news-image {
     justify-content: center;
     align-content: center;
