@@ -151,6 +151,11 @@
 
 /*------------------------------ Index Section*/
 
+.news-image {
+    justify-content: center;
+    align-content: center;
+}
+
 .news-image-border{
     border-left: 1px solid #070f16;
 }
