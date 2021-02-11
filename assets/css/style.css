@@ -10,7 +10,8 @@
 }
 
 .bg-jumbotron {
-    background-color: rgba(143, 143, 143, 0.5);
+    /* background-color: rgba(143, 143, 143, 0.5); */
+    background-color: rgba(33, 37, 41, 0.75);
 }
 
 .page-header {
@@ -107,6 +108,10 @@
     background-color: #8f8f8f;
     text-align: center;
     padding: .5rem 0;
+}
+
+.social-links li a i:hover {
+    background-color: #8a25b1;
 }
 
 /*-------------------------------- Hero Image */
