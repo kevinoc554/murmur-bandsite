@@ -156,7 +156,12 @@
     align-content: center;
 }
 
-.news-image-border{
+.news-image img {
+    width: 100%;
+    height: auto;
+}
+
+.news-image-border {
     border-left: 1px solid #070f16;
 }
 
@@ -188,5 +193,11 @@
     }
     .hero-image-container {
         justify-content: center;
+    }
+    .news-image-border {
+        border: none;
+    }
+    .news-image {
+        margin-bottom: 1rem;
     }
 }
