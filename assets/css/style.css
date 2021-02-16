@@ -149,7 +149,7 @@
     z-index: 3;
 }
 
-/*------------------------------ Index Section*/
+/*------------------------------ Index Main Section*/
 
 .news-item {
     margin-bottom: 2.5rem;
@@ -176,6 +176,19 @@
 
 .album-name {
     font-style: italic;
+}
+
+/*------------------------------ Discography Main Section*/
+
+.disco-col {
+    padding-top: 1rem;
+}
+
+.test-div {
+    height: 16rem;
+    width: 16rem;
+    background-color: red;
+    margin: 0 auto;
 }
 
 /*------------------------------ Media Queries*/
