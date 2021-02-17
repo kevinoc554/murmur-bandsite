@@ -184,14 +184,29 @@
     padding-top: 1rem;
 }
 
-.test-div {
-    height: 16rem;
-    width: 16rem;
-    background-color: red;
+.disco-image {
+    height: 20rem;
+    width: 20rem;
+    display: block;
     margin: 0 auto;
 }
 
+.test-div {
+    height: 20rem;
+    width: 20rem;
+    margin: 0 auto;
+    background-color: red;
+}
+
 /*------------------------------ Media Queries*/
+@media screen and (max-width: 374px) {
+    .disco-image {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .nav-container {
         padding-left: .5rem;
