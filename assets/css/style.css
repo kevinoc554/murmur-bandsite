@@ -4,6 +4,10 @@
 
 /*------------------------------ General - font, colors, sizing and alignments*/
 
+body {
+    background-color: #e7e7e7;
+}
+
 .ui-heading {
     color: #fafafa;
     font-family: "Lato", sans-serif;
@@ -24,11 +28,20 @@
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .text-center {
     text-align: center;
 }
 
-.text-right{
+.text-right {
+    text-align: right;
+}
+
+.text-right,
+.button-align {
     text-align: right;
 }
 
@@ -40,8 +53,6 @@
 .inline-block {
     display: inline-block;
 }
-
-/*------------------------------ Colors*/
 
 .ui-bg-color {
     background-color: #212529;
@@ -214,6 +225,7 @@
 }
 
 /*------------------------------ Media Queries*/
+
 @media screen and (max-width: 374px) {
     .disco-image {
         padding-left: 0;
@@ -229,7 +241,7 @@
     }
     .navbar ul {
     border-top: 1px solid #fafafa;
-}
+    }
     .footer {
         height: 7rem;
     }
@@ -255,5 +267,8 @@
     }
     .news-image {
         margin-bottom: 1rem;
+    }
+    .button-align {
+        text-align: center;
     }
 }
