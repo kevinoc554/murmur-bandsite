@@ -20,7 +20,7 @@
 </head>
 
 <body>
-
+    <!-- Header - Navigation links -->
     <header>
         <!-- Navigation -->
         <div class="row">
@@ -76,8 +76,8 @@
             </div>
         </div>
     </div>
-    <!-- /Hero Image & Title Text -->
 
+    <!-- Main Section - Tour dates -->
     <div class="container-fluid main-container">
         <div class="row">
             <div class="col-12">
@@ -163,11 +163,32 @@
             <div class="col-12">
                 <h5>Want to be notified when Murmur are playing in your area?</h5>
                 <p>Subscribe to our mailing list!</p>
-                <button class="btn btn-lg btn-outline-secondary uppercase hvr-fade">Subscribe</button>
+                <button class="btn btn-lg btn-outline-secondary uppercase hvr-fade" data-bs-toggle="modal"
+                    data-bs-target="#subscribeModal">Subscribe</button>
             </div>
         </div>
     </div>
 
+    <!-- Modal via Bootstrap -->
+    <div class="modal" id="subscribeModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Modal Header</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal Body</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary uppercase" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-secondary uppercase hvr-fade">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer - Social links -->
     <footer class="footer ui-bg-color">
         <div class="row">
             <div class="col-md-6 footer-content copyright-disclaimer">
