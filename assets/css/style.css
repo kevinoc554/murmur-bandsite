@@ -32,6 +32,10 @@ body {
     font-weight: bold;
 }
 
+.italics {
+    font-style: italic;
+}
+
 .text-center {
     text-align: center;
 }
@@ -250,6 +254,21 @@ body {
     height: 6.5rem;
     margin-bottom: 2.5rem;
 }
+
+/*------------------------------ Tour Modal*/
+
+.modal-form input {
+    padding: .5rem;
+    margin: .5rem 0;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 340px;
+}
+
+.modal-form input:hover {
+    box-shadow: 0 0 .5rem .25rem rgba(0,0,0,0.1);
+}
+
 
 /*------------------------------ Media Queries*/
 
