@@ -85,26 +85,35 @@
             </div>
         </div>
         <div class="row">
-            <div class="offset-2 col-8">
+            <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8">
                 <p>Are you a promoter or booking agent? Would you like to book the
                     band to play at your venue?</p>
                 <p>Fill out the form below!</p>
-                <form>
-                    <div>
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Email Address">
+                <form class="contact-form">
+                    <div class="d-inline-block form-block">
+                        <label for="name" class="d-block">Name:</label>
+                        <input type="text" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="d-inline-block form-block">
+                        <label for="email" class="d-block">Email:</label>
+                        <input type="email" id="email" placeholder="Email Address">
                     </div>
                     <br>
-                    <div>
-                        <input type="text" placeholder="City/Location">
-                        <input type="date">
+                    <div class="d-inline-block form-block">
+                        <label for="location" class="d-block">Location:</label>
+                        <input type="text" id="location" placeholder="City/Location">
+                    </div>
+                    <div class="d-inline-block form-block">
+                        <label for="date" class="d-block">Proposed date:</label>
+                        <input type="date" id="date">
                     </div>
                     <br>
-                    <div>
+                    <div class="form-block">
                         <label for="furtherDetails">Please provided further details:</label>
-                        <textarea class="d-block" id="furtherDetails" cols="30" rows="10"></textarea>
+                        <textarea class="d-block" id="furtherDetails"></textarea>
                     </div>
-                    <input class="d-block" type="submit" value="Submit Request">
+                    <button type="button" class="btn btn-outline-secondary uppercase hvr-fade d-block">Submit
+                        Request</button>
                     <br>
                 </form>
             </div>
