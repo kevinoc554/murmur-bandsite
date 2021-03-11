@@ -173,28 +173,30 @@
     <div class="modal" id="subscribeModal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5><span class="bold">Murmur</span> <span>- the official band site</span></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div>
-                        <p>Want to be the first to be notified when the band are coming to your area?</p>
-                        <p>Want to stay up to date with the latest news and releases?</p>
-                        <p>Subscribe to our mailing list now!</p>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <div class="modal-header">
+                        <h5><span class="bold">Murmur</span> <span>- the official band site</span></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-form">
-                        <form>
-                            <input type="text" id="name" placeholder="Name">
+                    <div class="modal-body">
+                        <div>
+                            <p>Want to be the first to be notified when the band are coming to your area?</p>
+                            <p>Want to stay up to date with the latest news and releases?</p>
+                            <p>Subscribe to our mailing list now!</p>
+                        </div>
+                        <div class="modal-form">
+                            <label for="name" class="d-block bold">Name:</label>
+                            <input type="text" name="user_name" id="name" placeholder="Name" required>
                             <br>
-                            <input type="email" id="email" placeholder="Email">
-                        </form>
+                            <label for="email" class="d-block bold">Email:</label>
+                            <input type="email" name="user_email" id="email" placeholder="Email" required>
+                        </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary uppercase" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-outline-secondary uppercase hvr-fade">Submit</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary uppercase" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-outline-secondary uppercase hvr-fade">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
