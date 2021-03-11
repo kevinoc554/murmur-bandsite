@@ -282,6 +282,7 @@ body {
 .contact-form textarea {
     margin-bottom: 1rem;
     width: 100%;
+    max-width: 55rem;
     min-height: 6rem;
 }
 
@@ -292,7 +293,6 @@ body {
 .contact-form .form-block {
     margin-top: 1rem;
 }
-
 
 /*------------------------------ Media Queries*/
 
@@ -346,5 +346,17 @@ body {
     }
     .subscribe-area {
         margin-bottom: 6.5rem;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .contact-form .right-form-block {
+    margin-left: 12.5%;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .contact-form .right-form-block {
+    margin-left: 25%;
     }
 }
