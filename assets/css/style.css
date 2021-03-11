@@ -202,6 +202,10 @@ body {
 
 /*------------------------------ Discography Main Section*/
 
+.disco-container {
+    margin-bottom: 7.5rem;
+}
+
 .disco-col {
     padding-top: 1rem;
     position: relative;
