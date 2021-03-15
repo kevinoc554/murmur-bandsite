@@ -61,6 +61,11 @@ body {
     background-color: #212529;
 }
 
+/* Overwriting default colours of Bootstrap Button */
+.btn {
+    color: #212529;
+}
+
 /* Overwriting default colours of hover.css */
 .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
     background-color: #8a25b1;
