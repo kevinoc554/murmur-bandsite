@@ -266,7 +266,7 @@ body {
     margin: .5rem 0;
     border-width: 1px;
     border-radius: 5px;
-    width: 21.25rem;
+    width: 90%;
 }
 
 .modal-form input:hover {
