@@ -298,6 +298,14 @@ body {
     margin-top: 1rem;
 }
 
+/*------------------------------ Custom 404*/
+
+.error-button {
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 2.5rem;
+}
+
 /*------------------------------ Media Queries*/
 
 @media screen and (max-width: 374px) {
