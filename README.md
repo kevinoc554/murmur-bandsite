@@ -80,8 +80,15 @@ The user goals are to:
 
 ## Technologies Used
 
-- Languages, Frameworks, Libraries, and any other tools used. 
-- Name - Link to its official site: one sentence explanation of why it was used.
+- HTML5 - the pages of this site were designed using HTML.
+- CSS3 - the pages of this site were styled using CSS.
+- [Gitpod](https://www.gitpod.io/) - the site was developed using Gitpod as the development environment.
+- [Bootstrap](https://getbootstrap.com/) - Bootstrap 5 was used to structure the layout of the site and make it responsive, as well as providing the JavaScript for the navbar and modal.
+- [Font Awesome](https://fontawesome.com/) - Font Awesome icons were used for the social media links in the footer.
+- [Google Fonts](https://fonts.google.com/) - Google Fonts were used throughout the project.
+- [Hover.CSS](https://ianlunn.github.io/Hover/) - Hover.CSS was used to add hover effects to social media links in the footer and buttons throughout the site.
+- [Favicon Generator](https://www.favicongenerator.com/) - Favicon Generator was used to create and size the favicon for the site.
+- [Autoprefixer](https://autoprefixer.github.io/) - Autoprefixer was used to ensure cross browser support for the CSS code.
 
 ## Testing
 
