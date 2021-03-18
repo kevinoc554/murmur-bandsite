@@ -92,10 +92,35 @@ The user goals are to:
 
 ## Testing
 
- - Code Validators
- - Test User Stories
- - Bugs identified/fixes
- - If this section runs long, consider seperate .md file
+### Validation:
+- [W3C Markup Validation](https://validator.w3.org/) was used to validate the HTML used in this site.
+    - The validator highlighted that some anchor elements had button elements nested within them. This was addressed by removing the button elements and styling the anchor elements to appear as buttons.
+    - Subsequent validation did not highlight any issues.
+- [Jigsaw/W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to validate the site's CSS.
+    - CSS was validated without issue before being run through Autoprefixer.
+    - Subsequent validation has highlighted the vendor prefixes added by Autoprefixer, but no other issues.
+
+### Automated Testing:
+- Each page of the site was evaluated using [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to assess them on four metrics; Performance, Accessibility, Best Practices & Search Engine Optimization (SEO).
+- The following changes were implemented:
+    - Best Practices:
+        - The attribute `rel="noopener nonoreferrer"` was added to all links to external 3rd party sites as a security feature to protect against malicious phishing or 'tabnapping'.
+    - Accessibility:
+        - The attributes `aria-control` and `aria-label` were added to the button element in the navbar to improve accessibility by clearly indicating the elements purpose to screen readers and other assistive technologies.
+        - Some `<h5>` and `<h6>` elements had been used non-sequentially, causing issues with the semantic flow of the page. These were changed to `<p>` elements and re-styled in CSS.
+        - The font color used on some of the anchor elements was flagged as being too light, and not sufficiently contrasted against the background color. These were re-styled to override the colors provided by Bootstrap.
+    - Search Engine Optimization:
+        - To improve SEO, a `<meta name="description">` tag was added to the head of each page, with content describing the page and it's purpose.
+
+
+### Testing User Stories:
+-
+
+### Manual Testing:
+- 
+
+### Bugs:
+- 
 
 
 ## Deployment
