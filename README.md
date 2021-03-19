@@ -212,10 +212,25 @@ The user goals are to:
 ## Credits
 
 ### Content
-- eg wiki pages
+- As Murmur are a fictious band, all copy was written by the developer.
 
 ### Media
-- eg photo credits
+- Photo Credits:
+    - Hero Image:
+        1. Photo by [Hanny Naibaho](https://unsplash.com/@hannynaibaho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com//s/photos/live-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+    - Home Page:
+        1. Photo by [David Menidrey](https://unsplash.com/@cazault?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com//s/photos/live-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+        2. Photo by [Alejandro Ortiz](https://unsplash.com/@aljandro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com//s/photos/live-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+        3. Photo by [William Hook](https://unsplash.com/@williamtm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com//s/photos/live-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+    - Discography:
+        1. Photo by [Christina Deravedisian](https://unsplash.com/@92designed?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+        2. Photo by [Efe Kurnaz](https://unsplash.com/@efekurnaz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+        3. Photo by [Laura Vinck](https://unsplash.com/@lauravinck?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+        4. Photo by [Ian](https://unsplash.com/@greystorm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+        5. Photo by [Isi Parente](https://unsplash.com/@isiparente?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+        6. Photo by [Jaclyn Moy](https://unsplash.com/@jelizabm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 ### Acknowledgements
 
