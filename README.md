@@ -73,6 +73,7 @@ The user goals are to:
 
 ### Features Left to Implement:
 - Build a custom 500 error page, in the style of the 404 error as described above. - Backend required
+- Fix the link to the newsletter on the home page, to link directly to the open modal - JavaScript required
 - Connect the form elements to the backend by:
     - Utilizing the newsletter signup form on the modal to create a mailing list.
     - Emailing response on the contact form to the band's management.
@@ -157,7 +158,7 @@ The user goals are to:
     - These Testing steps were repeated for each page on the site.
 
 - Hero Image & Title Card
-    - Checked that the hero image is visible and positioned correctly.
+    - Opened page on laptop, desktop, mobile and tablet to ensure that the hero image is visible and positioned correctly.
     - Checked that the opaque overlay is positioned over the image as a filter.
     - Checked that the title card displays correctly, center aligned on mobile screens and right aligned on larger screen sizes.
     - Checked that the z-index is correctly displaying the stack of elements, from bottom to top: the hero image, the opaque overlay, the semi-opaque title card, and the title text.
@@ -165,7 +166,12 @@ The user goals are to:
 
 
 #### Home Page
-- 
+- Checked to ensure that content of the home page was displaying correctly.
+- On larger screens checked that the news items display as text on the left and images on the right, seperated by a vertical border.
+- On mobile screens, checked that the Bootstrap "order" classes functioned correctly, and the news items displayed as images on top and text below, and were seperated from each other by custom styled horizontal rules.
+- Checked that text was legible and the images were clearly visible.
+- Checked the above on laptop, desktop, mobile and tablet, and by dragging the borders of the browser window to resize.
+
 #### Tour
 #### Discography
 #### Contact
