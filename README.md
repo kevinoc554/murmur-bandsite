@@ -141,11 +141,21 @@ The user goals are to:
 - Navbar
     - Opened page on laptop, desktop, mobile and tablet to ensure navbar displayed correctly at all screen sizes; as a vertical list on mobile screens and a horizontal list on larger screens.
     - Checked that the vertical list on mobile screens is toggled by a hamburger icon, and hidden when not in use.
+    - Checked that the navbar was positioned correctly; fixed to the top of the screen.
     - Checked that each link navigates to the correct page of the site.
     - Checked that the "Merch" navigation item, which links to an external site, opened in a new tab.
-    - Checked that the hover effect for each navigation item works correc, fading in on mouse over, and fading out on mouse out.
+    - Checked that the Bootstrap hover effect for each navigation item works correctly, fading in on mouse over, and fading out on mouse out.
     - Checked that the link to the current page is highlighted correctly in the navbar at all times.
     - Checked that the brand logo links back to the Home page.
+    - These Testing steps were repeated for each page on the site.
+ 
+ - Footer
+    - Opened page on laptop, desktop, mobile and tablet to ensure the footer displayed correctly at all screen sizes; center aligned on mobile with the copyright info on top of the social media links, and with social media icons aligned to the right and copyright info aligned to the left on larger screens.
+    - Checked that social media links were displaying correctly, with relevant Font Awesome icons.
+    - Checked that the social media links were pointed correctly, and all opened in new tabs.
+    - Checked that the customized hover effect (based on Hover.CSS) functioned correctly on the social media links;  changing the background color and font color on mouse over and reverting on mouse out.
+    - These Testing steps were repeated for each page on the site.
+
 
 #### Home Page
 - 
