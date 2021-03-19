@@ -23,7 +23,7 @@ The user goals are to:
 1.	As a new user, I want the site to be easy to navigate, so that I can find my way around without difficulty.
 2.	As a new user, I want to find out more about the band, so that I can feel connected to them.
 3.	As a fan, I want to be able to explore the band’s back catalogue, so that I can find out about previous releases.
-4.	As a fan, I want be able to see the locations, dates and times all upcoming gigs, so that I don’t miss a show.
+4.	As a fan, I want be able to see the locations and dates of all upcoming gigs, so that I don’t miss a show.
 5.	As a fan, I want to be able to easily access the store, so that I can purchase merchandise.
 6.	As a promoter, I want a straightforward contact form, so that I can enquire about booking the band for gigs.
 7.	As an interested user (a fan or a promoter), I want to be able to access the band’s social media accounts and streaming platforms, so that I can find out more about them and listen to their music.
@@ -114,7 +114,27 @@ The user goals are to:
 
 
 ### Testing User Stories:
--
+1.	As a new user, I want the site to be easy to navigate, so that I can find my way around without difficulty.
+    - The navbar is prominently displayed in the top right across the site, allowing the user to navigate to and from all pages of the site with ease. On mobile, the navigation links are displayed in a list, toggled by a hamburger icon.
+    - The brand logo in the top left of the header serves as a link that allows a user to navigate to the homepage from anywhere on the site.
+2.	As a new user, I want to find out more about the band, so that I can feel connected to them.
+    - All latest updates regarding the band are displayed in the news section on the homepage, and are the first thing a new user would see on arriving on the site.
+    - The copy in this news section directs the user to then explore further, providing prompts and links to the Discography and Tour pages.
+    - The Tour page includes a form (on a modal) that allows users who wish to know more to sign up for the mailing list.
+    - The band's social media accounts and streaming profiles are linked in the footer of every page, and are labelled with recognizable icons (courtesy of Font Awesome).
+3.	As a fan, I want to be able to explore the band’s back catalogue, so that I can find out about previous releases.
+    - The site features a dedicated Discography page, which contians the album artwork and release information for all the bands previous records.
+    - The Discography page is accessible from any page on the site via the navbar, and the copy on the home page also directs the user there.
+4.	As a fan, I want be able to see the locations and dates of all upcoming gigs, so that I don’t miss a show.
+    - The site features a dedicated Tour page, which displays the band’s upcoming tour dates, locations and venues, along with links to an external ticketing site to allow users to purchase tickets.
+    - The Tour page includes a form (on a modal) that allows users to sign up for the mailing list to be notified of future tour dates.
+5.	As a fan, I want to be able to easily access the store, so that I can purchase merchandise.
+    - The external merch store is accessible from every page on the site via a link in the navbar.
+6.	As a promoter, I want a straightforward contact form, so that I can enquire about booking the band for gigs.
+    - The site features a Contact page, consisting of a straightforward form that allows promoters to enquire about the band's availiblity. 
+    - The form asks the user to provide a name and email address, along with a prospective venue/location and date. It also includes a textarea that allows the user to freehand some text to explain their proposal.
+7.	As an interested user (a fan or a promoter), I want to be able to access the band’s social media accounts and streaming platforms, so that I can find out more about them and listen to their music.
+    - As above, the band's social media accounts and streaming profiles are linked in the footer of every page, and are labelled with recognizable icons (courtesy of Font Awesome).
 
 ### Manual Testing:
 - 
