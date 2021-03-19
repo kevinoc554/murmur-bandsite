@@ -156,6 +156,13 @@ The user goals are to:
     - Checked that the customized hover effect (based on Hover.CSS) functioned correctly on the social media links;  changing the background color and font color on mouse over and reverting on mouse out.
     - These Testing steps were repeated for each page on the site.
 
+- Hero Image & Title Card
+    - Checked that the hero image is visible and positioned correctly.
+    - Checked that the opaque overlay is positioned over the image as a filter.
+    - Checked that the title card displays correctly, center aligned on mobile screens and right aligned on larger screen sizes.
+    - Checked that the z-index is correctly displaying the stack of elements, from bottom to top: the hero image, the opaque overlay, the semi-opaque title card, and the title text.
+    - These Testing steps were repeated for each page on the site.
+
 
 #### Home Page
 - 
