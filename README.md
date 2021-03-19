@@ -88,7 +88,9 @@ The user goals are to:
 - [Font Awesome](https://fontawesome.com/) - Font Awesome icons were used for the social media links in the footer.
 - [Google Fonts](https://fonts.google.com/) - Google Fonts were used throughout the project.
 - [Hover.CSS](https://ianlunn.github.io/Hover/) - Hover.CSS was used to add hover effects to social media links in the footer and buttons throughout the site.
-- [Favicon Generator](https://www.favicongenerator.com/) - Favicon Generator was used to create and size the favicon for the site.
+- [Logo Maker](https://www.freelogodesign.org/) - The site's brnad logo was created using this Logo Maker.
+- [Favicon Generator](https://www.favicongenerator.com/) - Favicon Generator was used to create and size the favicon for the site, using the logo created above.
+- [Squoosh](https://squoosh.app/) - All photos used on the site were compressed and resized using Squoosh.
 - [Autoprefixer](https://autoprefixer.github.io/) - Autoprefixer was used to ensure cross browser support for the CSS code.
 
 ## Testing
@@ -105,7 +107,7 @@ The user goals are to:
 - Each page of the site was evaluated using [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to assess them on four metrics; Performance, Accessibility, Best Practices & Search Engine Optimization (SEO).
 - The following changes were implemented:
     - Best Practices:
-        - The attribute `rel="noopener nonoreferrer"` was added to all links to external 3rd party sites as a security feature to protect against malicious phishing or 'tabnapping'.
+        - The attribute `rel="noopener noreferrer"` was added to all links to external 3rd party sites as a security feature to protect against malicious phishing or 'tabnapping'.
     - Accessibility:
         - The attributes `aria-control` and `aria-label` were added to the button element in the navbar to improve accessibility by clearly indicating the elements purpose to screen readers and other assistive technologies.
         - Some `<h5>` and `<h6>` elements had been used non-sequentially, causing issues with the semantic flow of the page. These were changed to `<p>` elements and re-styled in CSS.
