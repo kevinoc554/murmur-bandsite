@@ -193,6 +193,9 @@ The user goals are to:
 *A screenshot of the Tour page (tour.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/tour.html).*
 
 #### Discography
+
+![Discography page viewed on different screen sizes](assets/images/responsive-discog.png)
+*A screenshot of the Discography page (discography.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/discography.html).*
 #### Contact
 #### 404 Error
 
