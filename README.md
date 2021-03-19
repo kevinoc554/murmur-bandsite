@@ -137,7 +137,22 @@ The user goals are to:
     - As above, the band's social media accounts and streaming profiles are linked in the footer of every page, and are labelled with recognizable icons (courtesy of Font Awesome).
 
 ### Manual Testing:
+#### General
+- Navbar
+    - Opened page on laptop, desktop, mobile and tablet to ensure navbar displayed correctly at all screen sizes; as a vertical list on mobile screens and a horizontal list on larger screens.
+    - Checked that the vertical list on mobile screens is toggled by a hamburger icon, and hidden when not in use.
+    - Checked that each link navigates to the correct page of the site.
+    - Checked that the "Merch" navigation item, which links to an external site, opened in a new tab.
+    - Checked that the hover effect for each navigation item works correc, fading in on mouse over, and fading out on mouse out.
+    - Checked that the link to the current page is highlighted correctly in the navbar at all times.
+    - Checked that the brand logo links back to the Home page.
+
+#### Home Page
 - 
+#### Tour
+#### Discography
+#### Contact
+#### 404 Error
 
 ### Bugs:
 - 
