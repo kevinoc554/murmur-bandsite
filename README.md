@@ -177,8 +177,21 @@ The user goals are to:
 ![Home page viewed on different screen sizes](assets/images/responsive-index.png)
 *A screenshot of the Home page (index.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is/). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/index.html).*
 
-
 #### Tour
+- Checked to ensure the Tour items displayed correctly.
+- On larger screens, checked that the venue, location and tickets link were spread out on one bootstrap row.
+- On mobile screens, checked that the Bootstrap "order" classes functioned correctly, and the date, venue and location were all stacked vertically on the left, with the tickets button on the right.
+- Checked that the customized hover effect (based on Hover.CSS) functioned correctly on the Tickets links and Subscribe button; changing the background color and font color on mouse over and reverting on mouse out.
+- Checked that the modal opened correctly when the Subscribe button is clicked.
+- Checked that the modal appears correctly stled and positioned, and the input fields are correctly sized.
+- Attempted to submit an empty form, and then again with some text in the "Name" to confirm that the inputs have the `required` attribute, and the appropriate error message shows.
+- Attempted to submit the form with an invalid email address to confirm that the appropriate error message shows.
+- Attempted to submit the form correctly filled out to check that the inputs would be accepted.
+- Checked the above on laptop, desktop, mobile and tablet, and by dragging the borders of the browser window to resize.
+
+![Tour page viewed on different screen sizes](assets/images/responsive-tour.png)
+*A screenshot of the Tour page (tour.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/tour.html).*
+
 #### Discography
 #### Contact
 #### 404 Error
