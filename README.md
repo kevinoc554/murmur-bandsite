@@ -233,5 +233,4 @@ The user goals are to:
         6. Photo by [Jaclyn Moy](https://unsplash.com/@jelizabm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 ### Acknowledgements
-
-- 
+- I'd like to thank my mentor, Jack Wachira, for his support and guidance throughout this project.
