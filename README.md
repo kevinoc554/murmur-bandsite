@@ -175,7 +175,7 @@ The user goals are to:
 - Checked the above on laptop, desktop, mobile and tablet, and by dragging the borders of the browser window to resize.
 
 ![Home page viewed on different screen sizes](assets/images/responsive-index.png)
-*A screenshot of the Home page (index.html), as viewed on different screen sizes. An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/index.html).*
+*A screenshot of the Home page (index.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is/). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/index.html).*
 
 
 #### Tour
