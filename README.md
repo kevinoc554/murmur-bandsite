@@ -210,7 +210,8 @@ The user goals are to:
 #### 404 Error
 
 ### Bugs:
-- 
+- Unwanted hover effect on album images on discography.html on smaller screens.
+    - Fixed by 
 
 
 ## Deployment
