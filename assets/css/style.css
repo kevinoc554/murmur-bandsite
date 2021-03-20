@@ -238,10 +238,6 @@ body {
     z-index: 1;
 }
 
-.disco-image:hover {
-    opacity: 0.3;
-}
-
 .album-title-overlay {
     position: absolute;
     color: #212529;
@@ -343,7 +339,7 @@ body {
     }
     .contact-form input {
     width: 17.5rem;
-}
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -387,6 +383,12 @@ body {
     }
     .subscribe-area {
         margin-bottom: 6.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .disco-image:hover {
+        opacity: 0.3;
     }
 }
 
