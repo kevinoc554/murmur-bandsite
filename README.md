@@ -210,8 +210,12 @@ The user goals are to:
 #### 404 Error
 
 ### Bugs:
-- Unwanted hover effect on album images on discography.html on smaller screens.
-    - Fixed by 
+- Navbar and footer were not scrolling with the screen.
+    - Fixed by setting `position: fixed;`
+- Some elements, inculding Navbar when scrolling, were appearing under the opaque filter on the hero image.
+    - Fixed by setting the z-index of all elements involved, so they appear stacked correctly,
+- Hover effect on album images on discography.html that were intended for desktop and laptop only, were also triggering on smaller screens.
+    - Fixed by moving relevant CSS to a media query that only triggers above tablet screen sizes.
 
 
 ## Deployment
