@@ -196,11 +196,17 @@ The user goals are to:
 - Checked to ensure the album artworks displayed correctly; as three columns on desktop and laptop, two columns on tablets and a single column on mobile.
 - Checked that the album info displays correctly on mobile and tablet as center aligned text over the images.
 - Checked that the hover effect that causes the album artwork to become opaque and reveal the album information works correctly, and doesn't effect mobile views.
-    - *Testing showed that while the text was appearing correctly, the hover effect could still be triggered on mobile. Bug fix pending.*
+    - *Testing showed that while the text was appearing correctly, the hover effect could still be triggered on mobile. Bug fix outlined below.*
 
 ![Discography page viewed on different screen sizes](assets/images/responsive-discog.png)
 *A screenshot of the Discography page (discography.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/discography.html).*
+
 #### Contact
+- 
+
+![Contact page viewed on different screen sizes](assets/images/responsive-contact.png)
+*A screenshot of the Contact page (contact.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/contact.html).*
+
 #### 404 Error
 
 ### Bugs:
