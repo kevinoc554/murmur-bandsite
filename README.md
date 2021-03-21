@@ -210,6 +210,12 @@ The user goals are to:
 *A screenshot of the Contact page (contact.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/contact.html).*
 
 #### 404 Error
+- Checked that the custom 404 error page displays if the user mistypes a page's URL.
+    - *Bug identified, see details below.*
+- Checked that the customized hover effect (based on Hover.CSS) functioned correctly on the Go Home button; changing the background color and font color on mouse over and reverting on mouse out.
+ 
+![404 page viewed on different screen sizes](assets/images/responsive-404.png)
+*A screenshot of the 404 Error page (404.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/404.html).*
 
 ### Bugs:
 - Navbar and footer were not scrolling with the screen.
@@ -219,6 +225,12 @@ The user goals are to:
 - Hover effect on album images on discography.html that were intended for desktop and laptop only, were also triggering on smaller screens.
     - Fixed by moving relevant CSS to a media query that only triggers above tablet screen sizes.
 
+#### Bugs to be fixed:
+- Custom 404 error page:
+    - The 404 page displays correctly if the user mistypes a URL or requests a page that doesn't exist, e.g. `kevinoc554.github.io/murmur-bandsite/foo` or `kevinoc554.github.io/murmur-bandsite/foo.html`.
+    - However, if the user mistypes the URL as ending in a slash '/', e.g. `kevinoc554.github.io/murmur-bandsite/foo.html/`, the 404 page will load without the CSS stylesheet, images and favicon.
+    - The links on this unstyled page will also cease to function, as a link to `index.html` they will now attempt to direct the user to `kevinoc554.github.io/murmur-bandsite/foo.html/index.html`.
+    - This means the user's only means of rectifying this issue are the browser's back button or manually typing a correct URL. 
 
 ## Deployment
 
