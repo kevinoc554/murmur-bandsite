@@ -202,7 +202,9 @@ The user goals are to:
 *A screenshot of the Discography page (discography.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/discography.html).*
 
 #### Contact
-- 
+- Checked that the form displays correctly on different screen sizes.
+- Checked that the customized hover effect (based on Hover.CSS) functioned correctly on the Submit button; changing the background color and font color on mouse over and reverting on mouse out.
+- Repeated the form submission steps outline in the **Tour** section above, checking that the form will not submit without the required inputs and that the email input is validated.
 
 ![Contact page viewed on different screen sizes](assets/images/responsive-contact.png)
 *A screenshot of the Contact page (contact.html) as viewed on different screen sizes, generated on [ami.responsivedesign.is](http://ami.responsivedesign.is). An interactive scrollable version is available [here](http://ami.responsivedesign.is/?url=https://kevinoc554.github.io/murmur-bandsite/contact.html).*
@@ -223,7 +225,7 @@ The user goals are to:
 - This site was developed in [Gitpod](https://www.gitpod.io/), commited and pushed to [Github](https://github.com/), and deployed on [GitHub Pages](https://pages.github.com/).
 - At the time of submission, there are no differences between the development version and deployed version of the site.
 
-#### The following steps were taken to deploy this site:
+### The following steps were taken to deploy this site:
 - Logged in to Github, and navigated to the site's **[repository](https://github.com/kevinoc554/murmur-bandsite)**.
 - Clicked on **Settings** in the toolbar near the top of the screen.
 - Scrolled down to the **GitHub Pages** section of the **Settings** page.
@@ -232,7 +234,7 @@ The user goals are to:
 - Clicked on the URL at the top of the **GitHub Pages** section to navigate to the live site.
 - *More info on deploying to **GitHub Pages** can be found [here](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site).*
 
-#### To run and edit the code for this site locally, follow these steps:
+### To run and edit the code for this site locally, follow these steps:
 * Log in to GitHub, and navigate to the site's **[repository](https://github.com/kevinoc554/murmur-bandsite)**.
 * Click on the green **Code** button.
 * Copy the URL under **Clone with HTTPS** by clicking on the **Copy** button.
