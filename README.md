@@ -56,7 +56,7 @@ The user goals are to:
 - The tour page consists of list of upcoming tour dates.
 - Each tour item displays the date, city and venue for each gig, along with an anchor (styled as a button) that links out to a 3rd party ticket website.
 - Below these tour items, there is a "Subscribe" button, accompanied by some text serving as a call to action.
-- This button triggers a modal that displays over the whole page and consists of a form that asks users to provided their name and email address in order to subscribe to the mailing list.
+- This button triggers a modal that displays over the whole page and consists of a form that asks users to provide their name and email address in order to subscribe to the mailing list.
 
 ### Discography:
 - The discography page consists of the album artwork of all the band’s previous releases displayed with the alum title and release year in chronological order.
@@ -134,7 +134,7 @@ The user goals are to:
 5.	As a fan, I want to be able to easily access the store, so that I can purchase merchandise.
     - The external merch store is accessible from every page on the site via a link in the navbar.
 6.	As a promoter, I want a straightforward contact form, so that I can enquire about booking the band for gigs.
-    - The site features a Contact page, consisting of a straightforward form that allows promoters to enquire about the band's availablity. 
+    - The site features a Contact page, consisting of a straightforward form that allows promoters to enquire about the band's availability. 
     - The form asks the user to provide a name and email address, along with a prospective venue/location and date. It also includes a textarea that allows the user to freehand some text to explain their proposal.
 7.	As an interested user (a fan or a promoter), I want to be able to access the band’s social media accounts and streaming platforms, so that I can find out more about them and listen to their music.
     - As above, the band's social media accounts and streaming profiles are linked in the footer of every page and are labelled with recognizable icons (courtesy of Font Awesome).
@@ -183,7 +183,7 @@ The user goals are to:
 - On mobile screens, checked that the Bootstrap "order" classes functioned correctly, and the date, venue and location were all stacked vertically on the left, with the tickets button on the right.
 - Checked that the customized hover effect (based on Hover.CSS) functioned correctly on the Tickets links and Subscribe button; changing the background color and font color on mouse over and reverting on mouse out.
 - Checked that the modal opened correctly when the Subscribe button is clicked.
-- Checked that the modal appears correctly stled and positioned, and the input fields are correctly sized.
+- Checked that the modal appears correctly styled and positioned, and the input fields are correctly sized.
 - Attempted to submit an empty form, and then again with some text in the "Name" to confirm that the inputs have the `required` attribute, and the appropriate error message shows.
 - Attempted to submit the form with an invalid email address to confirm that the appropriate error message shows.
 - Attempted to submit the form correctly filled out to check that the inputs would be accepted.
@@ -220,7 +220,7 @@ The user goals are to:
 ### Bugs:
 - Navbar and footer were not scrolling with the screen.
     - Fixed by setting `position: fixed;`
-- Some elements, inculding Navbar when scrolling, were appearing under the opaque filter on the hero image.
+- Some elements, including Navbar when scrolling, were appearing under the opaque filter on the hero image.
     - Fixed by setting the z-index of all elements involved, so they appear stacked correctly,
 - Hover effect on album images on discography.html that were intended for desktop and laptop only, were also triggering on smaller screens.
     - Fixed by moving relevant CSS to a media query that only triggers above tablet screen sizes.
@@ -234,7 +234,7 @@ The user goals are to:
 
 ## Deployment
 
-- This site was developed in [Gitpod](https://www.gitpod.io/), commited and pushed to [Github](https://github.com/), and deployed on [GitHub Pages](https://pages.github.com/).
+- This site was developed in [Gitpod](https://www.gitpod.io/), committed and pushed to [Github](https://github.com/), and deployed on [GitHub Pages](https://pages.github.com/).
 - At the time of submission, there are no differences between the development version and deployed version of the site.
 
 ### The following steps were taken to deploy this site:
@@ -252,7 +252,7 @@ The user goals are to:
 * Copy the URL under **Clone with HTTPS** by clicking on the **Copy** button.
 * Open the terminal in your IDE, and navigate to the desired directory.
 * Type `git clone` into the terminal, and paste in the copied URL, e.g.,  
-``console git clone https://github.com/kevinoc554/murmur-bandsite.git``
+``git clone https://github.com/kevinoc554/murmur-bandsite.git``
 * Press enter to clone the repository.
 * *More info on cloning a **GitHub** repository can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).*
 
@@ -280,4 +280,4 @@ The user goals are to:
         6. Photo by [Jaclyn Moy](https://unsplash.com/@jelizabm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/album-art?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 ### Acknowledgements
-- I'd like to thank my mentor, Jack Wachira, for his support and guidance throughout this project.
+- I would like to thank my mentor, Jack Wachira, for his support and guidance throughout this project.
