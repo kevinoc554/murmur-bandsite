@@ -230,7 +230,10 @@ The user goals are to:
     - The 404 page displays correctly if the user mistypes a URL or requests a page that doesn't exist, e.g. `kevinoc554.github.io/murmur-bandsite/foo` or `kevinoc554.github.io/murmur-bandsite/foo.html`.
     - However, if the user mistypes the URL as ending in a slash '/', e.g. `kevinoc554.github.io/murmur-bandsite/foo.html/`, the 404 page will load without the CSS stylesheet, images and favicon.
     - The links on this unstyled page will also cease to function, as a link to `index.html` they will now attempt to direct the user to `kevinoc554.github.io/murmur-bandsite/foo.html/index.html`.
-    - This means the user's only means of rectifying this issue are the browser's back button or manually typing a correct URL. 
+    - This means the user's only means of rectifying this issue are the browser's back button or manually typing a correct URL.
+    - A potential fix to styling issue could be moving to inline CSS.
+    - Attempts to fix the links by changing `href` attributes to absolute URLs were unsuccessful.
+    
 
 ## Deployment
 
